@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div style={customStyle} className='h-96'>
-<h1>emd</h1>
+<h1></h1>
     </div>
   )
 }

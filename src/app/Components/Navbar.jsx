@@ -13,7 +13,7 @@ const Navbar = () => {
   const [click, setClick] = useState(true);
 
   return (
-    <div  className='h-52 lg:h-28 bg-dblue'>
+    <div  className='h-52 lg:h-28 bg-dblue text-white '>
       <div className=" w-full text-white">
         <div className='pt-5'>
           <div className='flex justify-between mx-8'>
