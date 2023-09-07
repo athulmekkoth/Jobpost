@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       
-      <body  style={{backgroundColor:'black'}} className={inter.className}>
+      <body  style={{backgroundColor:'white'}} className={inter.className}>
         <Navbar />
         
         
