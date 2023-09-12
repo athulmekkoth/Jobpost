@@ -5,8 +5,8 @@ export async function Connect()
 try {
     await mongoose.connect(process.env.mongo_url)
     const connection=mongoose.connection
-    connection.once("open",()=>{console.log("connected")})
-    
+    connection.on("connected",()=>{console.log("connected")})
+    connection.on("error",(err)=>{console.log(err)})
   } catch (error) {
     handleError(error+"not connected");
   }
