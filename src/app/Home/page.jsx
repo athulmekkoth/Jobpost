@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { headers } from '../../../next.config';
 
 import Smallpart from './Smallpart';
-import { FirstPart } from './FirstPart';
+import  FirstPart  from './FirstPart';
 const Home= () => {
  
 

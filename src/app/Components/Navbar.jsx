@@ -32,7 +32,7 @@ const Navbar = () => {
               Magneto
             </div>
             <div>
-              <Button name={"login"} color={"bg-blue-500"} />
+    <Link href="/signup" ><Button name={"login"} color={"bg-blue-500"} /></Link>
             </div>
           </div>
         </div>
